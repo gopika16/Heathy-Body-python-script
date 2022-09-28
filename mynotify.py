@@ -1,4 +1,3 @@
-from secrets import choice
 from time import time
 from plyer import notification
 from random import choice
