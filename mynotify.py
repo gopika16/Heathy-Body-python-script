@@ -6,7 +6,6 @@ def sendNotification(heading,msg,waiting):
     notification.notify(
             title = heading,
             message=msg ,
-            app_name="Health YOu",
             timeout=waiting
 )
 
@@ -25,9 +24,9 @@ if __name__=='__main__':
     break_head="Take a Break "
     break_msg="Sit back & Relaxxx "
 
-    rep_water=5*60
-    rep_eyes=1*60
-    rep_break=3*60
+    rep_water=35*60
+    rep_eyes=10*60
+    rep_break=45*60
 
     while True:
         if time() - initial_hydrate > rep_water:
